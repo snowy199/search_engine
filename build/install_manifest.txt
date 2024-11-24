@@ -1,0 +1,3 @@
+/home/qml/serch/search_engine/bin/buildDict
+/home/qml/serch/search_engine/bin/queryCn
+/home/qml/serch/search_engine/bin/testCache

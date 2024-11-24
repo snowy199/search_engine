@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/testCache.dir/src/LRUCache/testLRUCache.cpp.o CMakeFiles/testCache.dir/src/Configuration.cpp.o CMakeFiles/testCache.dir/src/mylog.cpp.o CMakeFiles/testCache.dir/src/LRUCache/CacheManager.cpp.o CMakeFiles/testCache.dir/src/LRUCache/LRUCache.cpp.o -o testCache  -llog4cpp 

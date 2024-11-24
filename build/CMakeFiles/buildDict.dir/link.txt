@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/buildDict.dir/src/dict/mainDictCreate.cpp.o CMakeFiles/buildDict.dir/src/dict/dict_producer.cpp.o CMakeFiles/buildDict.dir/src/dict/split_tool.cpp.o CMakeFiles/buildDict.dir/src/Configuration.cpp.o CMakeFiles/buildDict.dir/src/mylog.cpp.o -o buildDict  -llog4cpp 

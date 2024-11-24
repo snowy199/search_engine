@@ -1,0 +1,9 @@
+/home/qml/serch/search_engine/build/CMakeFiles/buildDict.dir
+/home/qml/serch/search_engine/build/CMakeFiles/queryCn.dir
+/home/qml/serch/search_engine/build/CMakeFiles/testCache.dir
+/home/qml/serch/search_engine/build/CMakeFiles/edit_cache.dir
+/home/qml/serch/search_engine/build/CMakeFiles/rebuild_cache.dir
+/home/qml/serch/search_engine/build/CMakeFiles/list_install_components.dir
+/home/qml/serch/search_engine/build/CMakeFiles/install.dir
+/home/qml/serch/search_engine/build/CMakeFiles/install/local.dir
+/home/qml/serch/search_engine/build/CMakeFiles/install/strip.dir
