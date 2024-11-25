@@ -200,6 +200,32 @@ testCache/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/build
 .PHONY : testCache/fast
 
+#=============================================================================
+# Target rules for targets named mainPageLib
+
+# Build rule for target.
+mainPageLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mainPageLib
+.PHONY : mainPageLib
+
+# fast build rule for target.
+mainPageLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/build
+.PHONY : mainPageLib/fast
+
+#=============================================================================
+# Target rules for targets named queryTest
+
+# Build rule for target.
+queryTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queryTest
+.PHONY : queryTest
+
+# fast build rule for target.
+queryTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/build
+.PHONY : queryTest/fast
+
 src/Configuration.o: src/Configuration.cpp.o
 .PHONY : src/Configuration.o
 
@@ -208,6 +234,8 @@ src/Configuration.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildDict.dir/build.make CMakeFiles/buildDict.dir/src/Configuration.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/Configuration.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/Configuration.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/Configuration.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/Configuration.cpp.o
 .PHONY : src/Configuration.cpp.o
 
 src/Configuration.i: src/Configuration.cpp.i
@@ -218,6 +246,8 @@ src/Configuration.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildDict.dir/build.make CMakeFiles/buildDict.dir/src/Configuration.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/Configuration.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/Configuration.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/Configuration.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/Configuration.cpp.i
 .PHONY : src/Configuration.cpp.i
 
 src/Configuration.s: src/Configuration.cpp.s
@@ -228,6 +258,8 @@ src/Configuration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildDict.dir/build.make CMakeFiles/buildDict.dir/src/Configuration.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/Configuration.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/Configuration.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/Configuration.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/Configuration.cpp.s
 .PHONY : src/Configuration.cpp.s
 
 src/LRUCache/CacheManager.o: src/LRUCache/CacheManager.cpp.o
@@ -438,6 +470,8 @@ src/dict/split_tool.o: src/dict/split_tool.cpp.o
 src/dict/split_tool.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildDict.dir/build.make CMakeFiles/buildDict.dir/src/dict/split_tool.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/split_tool.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/dict/split_tool.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/dict/split_tool.cpp.o
 .PHONY : src/dict/split_tool.cpp.o
 
 src/dict/split_tool.i: src/dict/split_tool.cpp.i
@@ -447,6 +481,8 @@ src/dict/split_tool.i: src/dict/split_tool.cpp.i
 src/dict/split_tool.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildDict.dir/build.make CMakeFiles/buildDict.dir/src/dict/split_tool.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/split_tool.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/dict/split_tool.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/dict/split_tool.cpp.i
 .PHONY : src/dict/split_tool.cpp.i
 
 src/dict/split_tool.s: src/dict/split_tool.cpp.s
@@ -456,6 +492,8 @@ src/dict/split_tool.s: src/dict/split_tool.cpp.s
 src/dict/split_tool.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildDict.dir/build.make CMakeFiles/buildDict.dir/src/dict/split_tool.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/split_tool.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/dict/split_tool.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/dict/split_tool.cpp.s
 .PHONY : src/dict/split_tool.cpp.s
 
 src/mylog.o: src/mylog.cpp.o
@@ -466,6 +504,8 @@ src/mylog.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildDict.dir/build.make CMakeFiles/buildDict.dir/src/mylog.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/mylog.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/mylog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/mylog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/mylog.cpp.o
 .PHONY : src/mylog.cpp.o
 
 src/mylog.i: src/mylog.cpp.i
@@ -476,6 +516,8 @@ src/mylog.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildDict.dir/build.make CMakeFiles/buildDict.dir/src/mylog.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/mylog.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/mylog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/mylog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/mylog.cpp.i
 .PHONY : src/mylog.cpp.i
 
 src/mylog.s: src/mylog.cpp.s
@@ -486,7 +528,201 @@ src/mylog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/buildDict.dir/build.make CMakeFiles/buildDict.dir/src/mylog.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/mylog.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/mylog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/mylog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/mylog.cpp.s
 .PHONY : src/mylog.cpp.s
+
+src/pageLib/mainPageLib.o: src/pageLib/mainPageLib.cpp.o
+.PHONY : src/pageLib/mainPageLib.o
+
+# target to build an object file
+src/pageLib/mainPageLib.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/mainPageLib.cpp.o
+.PHONY : src/pageLib/mainPageLib.cpp.o
+
+src/pageLib/mainPageLib.i: src/pageLib/mainPageLib.cpp.i
+.PHONY : src/pageLib/mainPageLib.i
+
+# target to preprocess a source file
+src/pageLib/mainPageLib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/mainPageLib.cpp.i
+.PHONY : src/pageLib/mainPageLib.cpp.i
+
+src/pageLib/mainPageLib.s: src/pageLib/mainPageLib.cpp.s
+.PHONY : src/pageLib/mainPageLib.s
+
+# target to generate assembly for a file
+src/pageLib/mainPageLib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/mainPageLib.cpp.s
+.PHONY : src/pageLib/mainPageLib.cpp.s
+
+src/pageLib/offsetPage.o: src/pageLib/offsetPage.cpp.o
+.PHONY : src/pageLib/offsetPage.o
+
+# target to build an object file
+src/pageLib/offsetPage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/offsetPage.cpp.o
+.PHONY : src/pageLib/offsetPage.cpp.o
+
+src/pageLib/offsetPage.i: src/pageLib/offsetPage.cpp.i
+.PHONY : src/pageLib/offsetPage.i
+
+# target to preprocess a source file
+src/pageLib/offsetPage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/offsetPage.cpp.i
+.PHONY : src/pageLib/offsetPage.cpp.i
+
+src/pageLib/offsetPage.s: src/pageLib/offsetPage.cpp.s
+.PHONY : src/pageLib/offsetPage.s
+
+# target to generate assembly for a file
+src/pageLib/offsetPage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/offsetPage.cpp.s
+.PHONY : src/pageLib/offsetPage.cpp.s
+
+src/pageLib/simHash.o: src/pageLib/simHash.cpp.o
+.PHONY : src/pageLib/simHash.o
+
+# target to build an object file
+src/pageLib/simHash.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/simHash.cpp.o
+.PHONY : src/pageLib/simHash.cpp.o
+
+src/pageLib/simHash.i: src/pageLib/simHash.cpp.i
+.PHONY : src/pageLib/simHash.i
+
+# target to preprocess a source file
+src/pageLib/simHash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/simHash.cpp.i
+.PHONY : src/pageLib/simHash.cpp.i
+
+src/pageLib/simHash.s: src/pageLib/simHash.cpp.s
+.PHONY : src/pageLib/simHash.s
+
+# target to generate assembly for a file
+src/pageLib/simHash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/simHash.cpp.s
+.PHONY : src/pageLib/simHash.cpp.s
+
+src/pageLib/webPage.o: src/pageLib/webPage.cpp.o
+.PHONY : src/pageLib/webPage.o
+
+# target to build an object file
+src/pageLib/webPage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/webPage.cpp.o
+.PHONY : src/pageLib/webPage.cpp.o
+
+src/pageLib/webPage.i: src/pageLib/webPage.cpp.i
+.PHONY : src/pageLib/webPage.i
+
+# target to preprocess a source file
+src/pageLib/webPage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/webPage.cpp.i
+.PHONY : src/pageLib/webPage.cpp.i
+
+src/pageLib/webPage.s: src/pageLib/webPage.cpp.s
+.PHONY : src/pageLib/webPage.s
+
+# target to generate assembly for a file
+src/pageLib/webPage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/pageLib/webPage.cpp.s
+.PHONY : src/pageLib/webPage.cpp.s
+
+src/redis.o: src/redis.cpp.o
+.PHONY : src/redis.o
+
+# target to build an object file
+src/redis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/redis.cpp.o
+.PHONY : src/redis.cpp.o
+
+src/redis.i: src/redis.cpp.i
+.PHONY : src/redis.i
+
+# target to preprocess a source file
+src/redis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/redis.cpp.i
+.PHONY : src/redis.cpp.i
+
+src/redis.s: src/redis.cpp.s
+.PHONY : src/redis.s
+
+# target to generate assembly for a file
+src/redis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/redis.cpp.s
+.PHONY : src/redis.cpp.s
+
+src/webPage/WebPageQuery.o: src/webPage/WebPageQuery.cpp.o
+.PHONY : src/webPage/WebPageQuery.o
+
+# target to build an object file
+src/webPage/WebPageQuery.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageQuery.cpp.o
+.PHONY : src/webPage/WebPageQuery.cpp.o
+
+src/webPage/WebPageQuery.i: src/webPage/WebPageQuery.cpp.i
+.PHONY : src/webPage/WebPageQuery.i
+
+# target to preprocess a source file
+src/webPage/WebPageQuery.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageQuery.cpp.i
+.PHONY : src/webPage/WebPageQuery.cpp.i
+
+src/webPage/WebPageQuery.s: src/webPage/WebPageQuery.cpp.s
+.PHONY : src/webPage/WebPageQuery.s
+
+# target to generate assembly for a file
+src/webPage/WebPageQuery.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageQuery.cpp.s
+.PHONY : src/webPage/WebPageQuery.cpp.s
+
+src/webPage/WebPageReader.o: src/webPage/WebPageReader.cpp.o
+.PHONY : src/webPage/WebPageReader.o
+
+# target to build an object file
+src/webPage/WebPageReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageReader.cpp.o
+.PHONY : src/webPage/WebPageReader.cpp.o
+
+src/webPage/WebPageReader.i: src/webPage/WebPageReader.cpp.i
+.PHONY : src/webPage/WebPageReader.i
+
+# target to preprocess a source file
+src/webPage/WebPageReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageReader.cpp.i
+.PHONY : src/webPage/WebPageReader.cpp.i
+
+src/webPage/WebPageReader.s: src/webPage/WebPageReader.cpp.s
+.PHONY : src/webPage/WebPageReader.s
+
+# target to generate assembly for a file
+src/webPage/WebPageReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageReader.cpp.s
+.PHONY : src/webPage/WebPageReader.cpp.s
+
+src/webPage/test.o: src/webPage/test.cpp.o
+.PHONY : src/webPage/test.o
+
+# target to build an object file
+src/webPage/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/test.cpp.o
+.PHONY : src/webPage/test.cpp.o
+
+src/webPage/test.i: src/webPage/test.cpp.i
+.PHONY : src/webPage/test.i
+
+# target to preprocess a source file
+src/webPage/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/test.cpp.i
+.PHONY : src/webPage/test.cpp.i
+
+src/webPage/test.s: src/webPage/test.cpp.s
+.PHONY : src/webPage/test.s
+
+# target to generate assembly for a file
+src/webPage/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/test.cpp.s
+.PHONY : src/webPage/test.cpp.s
 
 # Help Target
 help:
@@ -501,7 +737,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... buildDict"
+	@echo "... mainPageLib"
 	@echo "... queryCn"
+	@echo "... queryTest"
 	@echo "... testCache"
 	@echo "... src/Configuration.o"
 	@echo "... src/Configuration.i"
@@ -536,6 +774,30 @@ help:
 	@echo "... src/mylog.o"
 	@echo "... src/mylog.i"
 	@echo "... src/mylog.s"
+	@echo "... src/pageLib/mainPageLib.o"
+	@echo "... src/pageLib/mainPageLib.i"
+	@echo "... src/pageLib/mainPageLib.s"
+	@echo "... src/pageLib/offsetPage.o"
+	@echo "... src/pageLib/offsetPage.i"
+	@echo "... src/pageLib/offsetPage.s"
+	@echo "... src/pageLib/simHash.o"
+	@echo "... src/pageLib/simHash.i"
+	@echo "... src/pageLib/simHash.s"
+	@echo "... src/pageLib/webPage.o"
+	@echo "... src/pageLib/webPage.i"
+	@echo "... src/pageLib/webPage.s"
+	@echo "... src/redis.o"
+	@echo "... src/redis.i"
+	@echo "... src/redis.s"
+	@echo "... src/webPage/WebPageQuery.o"
+	@echo "... src/webPage/WebPageQuery.i"
+	@echo "... src/webPage/WebPageQuery.s"
+	@echo "... src/webPage/WebPageReader.o"
+	@echo "... src/webPage/WebPageReader.i"
+	@echo "... src/webPage/WebPageReader.s"
+	@echo "... src/webPage/test.o"
+	@echo "... src/webPage/test.i"
+	@echo "... src/webPage/test.s"
 .PHONY : help
 
 

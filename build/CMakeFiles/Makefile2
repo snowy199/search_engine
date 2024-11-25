@@ -66,6 +66,8 @@ CMAKE_BINARY_DIR = /home/qml/serch/search_engine/build
 all: CMakeFiles/buildDict.dir/all
 all: CMakeFiles/queryCn.dir/all
 all: CMakeFiles/testCache.dir/all
+all: CMakeFiles/mainPageLib.dir/all
+all: CMakeFiles/queryTest.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ preinstall:
 clean: CMakeFiles/buildDict.dir/clean
 clean: CMakeFiles/queryCn.dir/clean
 clean: CMakeFiles/testCache.dir/clean
+clean: CMakeFiles/mainPageLib.dir/clean
+clean: CMakeFiles/queryTest.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -111,7 +115,7 @@ CMakeFiles/buildDict.dir/clean:
 CMakeFiles/queryCn.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qml/serch/search_engine/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14,15,16 "Built target queryCn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qml/serch/search_engine/build/CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24 "Built target queryCn"
 .PHONY : CMakeFiles/queryCn.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +141,7 @@ CMakeFiles/queryCn.dir/clean:
 CMakeFiles/testCache.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qml/serch/search_engine/build/CMakeFiles --progress-num=17,18,19,20,21,22 "Built target testCache"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qml/serch/search_engine/build/CMakeFiles --progress-num=33,34,35,36,37,38 "Built target testCache"
 .PHONY : CMakeFiles/testCache.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +159,58 @@ testCache: CMakeFiles/testCache.dir/rule
 CMakeFiles/testCache.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/clean
 .PHONY : CMakeFiles/testCache.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mainPageLib.dir
+
+# All Build rule for target.
+CMakeFiles/mainPageLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qml/serch/search_engine/build/CMakeFiles --progress-num=7,8,9,10,11,12,13,14 "Built target mainPageLib"
+.PHONY : CMakeFiles/mainPageLib.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mainPageLib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qml/serch/search_engine/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mainPageLib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qml/serch/search_engine/build/CMakeFiles 0
+.PHONY : CMakeFiles/mainPageLib.dir/rule
+
+# Convenience name for target.
+mainPageLib: CMakeFiles/mainPageLib.dir/rule
+.PHONY : mainPageLib
+
+# clean rule for target.
+CMakeFiles/mainPageLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/clean
+.PHONY : CMakeFiles/mainPageLib.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/queryTest.dir
+
+# All Build rule for target.
+CMakeFiles/queryTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/qml/serch/search_engine/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32 "Built target queryTest"
+.PHONY : CMakeFiles/queryTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/queryTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qml/serch/search_engine/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/queryTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qml/serch/search_engine/build/CMakeFiles 0
+.PHONY : CMakeFiles/queryTest.dir/rule
+
+# Convenience name for target.
+queryTest: CMakeFiles/queryTest.dir/rule
+.PHONY : queryTest
+
+# clean rule for target.
+CMakeFiles/queryTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/clean
+.PHONY : CMakeFiles/queryTest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

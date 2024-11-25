@@ -64,7 +64,7 @@ unordered_set<string> CnSplitTool::createStopWordsSet(){
     if(!ifs.good())
     {
         string error = Mylog::getErrorMsg(errno);
-        LogError("stop_word_path open failed: %s", error.c_str());
+        LogError("stop_word_path open failed: %s : %s", error.c_str(), _stop_word_path);
     }
 
     string word;

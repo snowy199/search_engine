@@ -114,6 +114,54 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/mainPageLib" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/mainPageLib")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/mainPageLib"
+         RPATH "")
+  endif()
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/qml/serch/search_engine/bin/mainPageLib")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/home/qml/serch/search_engine/bin" TYPE EXECUTABLE FILES "/home/qml/serch/search_engine/build/mainPageLib")
+  if(EXISTS "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/mainPageLib" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/mainPageLib")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/mainPageLib")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/queryTest" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/queryTest")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/queryTest"
+         RPATH "")
+  endif()
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/qml/serch/search_engine/bin/queryTest")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/home/qml/serch/search_engine/bin" TYPE EXECUTABLE FILES "/home/qml/serch/search_engine/build/queryTest")
+  if(EXISTS "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/queryTest" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/queryTest")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/qml/serch/search_engine/bin/queryTest")
+    endif()
+  endif()
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
