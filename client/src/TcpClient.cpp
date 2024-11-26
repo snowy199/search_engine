@@ -1,12 +1,7 @@
-/**
- * Project SearchEngine
- */
-
-
-#include "TcpClient.h"
-#include "Configuration.h"
-#include "Connection.h"
-#include "nlohmann/json.hpp"
+#include "include/TcpClient.h"
+#include "include/Configuration.h"
+#include "include/Connection.h"
+#include "include/nlohmann/json.hpp"
 #include <map>
 #include <iostream>
 #include <vector>

@@ -1,4 +1,4 @@
-#include "Configuration.h"
+#include "include/Configuration.h"
 using namespace std;
 
 Configuration* Configuration::_pConf = nullptr;

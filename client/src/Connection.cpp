@@ -1,9 +1,4 @@
-/**
- * Project SearchEngine
- */
-
-
-#include "Connection.h"
+#include "include/Connection.h"
 
 /**
  * Connection implementation

@@ -1,9 +1,4 @@
-/**
- * Project SearchEngine
- */
-
-
-#include "TcpConnection.h"
+#include "include/TcpConnection.h"
 #include <sstream>
 #include <iostream>
 

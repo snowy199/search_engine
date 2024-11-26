@@ -181,7 +181,7 @@ add_executable(client
 
 # 添加头文件搜索路径
 target_include_directories(client PRIVATE
-    client/include
+    client
     # include
 )
 # 指定安装规则

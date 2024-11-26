@@ -1,6 +1,6 @@
 #include <iostream>
-#include "TcpClient.h"
-#include "Configuration.h"
+#include "include/TcpClient.h"
+#include "include/Configuration.h"
 
 int main()
 {

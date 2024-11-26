@@ -1,9 +1,4 @@
-/**
- * Project SearchEngine
- */
-
-
-#include "InetAddress.h"
+#include "include/InetAddress.h"
 
 /**
  * InetAddress implementation

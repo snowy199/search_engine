@@ -1,9 +1,4 @@
-/*
- * Project SearchEngine
- */
-
-
-#include "Socket.h"
+#include "include/Socket.h"
 
 /**
  * Socket implementation
