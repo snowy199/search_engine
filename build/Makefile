@@ -226,6 +226,224 @@ queryTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/build
 .PHONY : queryTest/fast
 
+#=============================================================================
+# Target rules for targets named searchSever
+
+# Build rule for target.
+searchSever: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 searchSever
+.PHONY : searchSever
+
+# fast build rule for target.
+searchSever/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/build
+.PHONY : searchSever/fast
+
+#=============================================================================
+# Target rules for targets named client
+
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+client/src/Configuration.o: client/src/Configuration.cpp.o
+.PHONY : client/src/Configuration.o
+
+# target to build an object file
+client/src/Configuration.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/Configuration.cpp.o
+.PHONY : client/src/Configuration.cpp.o
+
+client/src/Configuration.i: client/src/Configuration.cpp.i
+.PHONY : client/src/Configuration.i
+
+# target to preprocess a source file
+client/src/Configuration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/Configuration.cpp.i
+.PHONY : client/src/Configuration.cpp.i
+
+client/src/Configuration.s: client/src/Configuration.cpp.s
+.PHONY : client/src/Configuration.s
+
+# target to generate assembly for a file
+client/src/Configuration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/Configuration.cpp.s
+.PHONY : client/src/Configuration.cpp.s
+
+client/src/Connection.o: client/src/Connection.cpp.o
+.PHONY : client/src/Connection.o
+
+# target to build an object file
+client/src/Connection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/Connection.cpp.o
+.PHONY : client/src/Connection.cpp.o
+
+client/src/Connection.i: client/src/Connection.cpp.i
+.PHONY : client/src/Connection.i
+
+# target to preprocess a source file
+client/src/Connection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/Connection.cpp.i
+.PHONY : client/src/Connection.cpp.i
+
+client/src/Connection.s: client/src/Connection.cpp.s
+.PHONY : client/src/Connection.s
+
+# target to generate assembly for a file
+client/src/Connection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/Connection.cpp.s
+.PHONY : client/src/Connection.cpp.s
+
+client/src/InetAddress.o: client/src/InetAddress.cpp.o
+.PHONY : client/src/InetAddress.o
+
+# target to build an object file
+client/src/InetAddress.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/InetAddress.cpp.o
+.PHONY : client/src/InetAddress.cpp.o
+
+client/src/InetAddress.i: client/src/InetAddress.cpp.i
+.PHONY : client/src/InetAddress.i
+
+# target to preprocess a source file
+client/src/InetAddress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/InetAddress.cpp.i
+.PHONY : client/src/InetAddress.cpp.i
+
+client/src/InetAddress.s: client/src/InetAddress.cpp.s
+.PHONY : client/src/InetAddress.s
+
+# target to generate assembly for a file
+client/src/InetAddress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/InetAddress.cpp.s
+.PHONY : client/src/InetAddress.cpp.s
+
+client/src/Socket.o: client/src/Socket.cpp.o
+.PHONY : client/src/Socket.o
+
+# target to build an object file
+client/src/Socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/Socket.cpp.o
+.PHONY : client/src/Socket.cpp.o
+
+client/src/Socket.i: client/src/Socket.cpp.i
+.PHONY : client/src/Socket.i
+
+# target to preprocess a source file
+client/src/Socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/Socket.cpp.i
+.PHONY : client/src/Socket.cpp.i
+
+client/src/Socket.s: client/src/Socket.cpp.s
+.PHONY : client/src/Socket.s
+
+# target to generate assembly for a file
+client/src/Socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/Socket.cpp.s
+.PHONY : client/src/Socket.cpp.s
+
+client/src/SocketIO.o: client/src/SocketIO.cpp.o
+.PHONY : client/src/SocketIO.o
+
+# target to build an object file
+client/src/SocketIO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/SocketIO.cpp.o
+.PHONY : client/src/SocketIO.cpp.o
+
+client/src/SocketIO.i: client/src/SocketIO.cpp.i
+.PHONY : client/src/SocketIO.i
+
+# target to preprocess a source file
+client/src/SocketIO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/SocketIO.cpp.i
+.PHONY : client/src/SocketIO.cpp.i
+
+client/src/SocketIO.s: client/src/SocketIO.cpp.s
+.PHONY : client/src/SocketIO.s
+
+# target to generate assembly for a file
+client/src/SocketIO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/SocketIO.cpp.s
+.PHONY : client/src/SocketIO.cpp.s
+
+client/src/TcpClient.o: client/src/TcpClient.cpp.o
+.PHONY : client/src/TcpClient.o
+
+# target to build an object file
+client/src/TcpClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/TcpClient.cpp.o
+.PHONY : client/src/TcpClient.cpp.o
+
+client/src/TcpClient.i: client/src/TcpClient.cpp.i
+.PHONY : client/src/TcpClient.i
+
+# target to preprocess a source file
+client/src/TcpClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/TcpClient.cpp.i
+.PHONY : client/src/TcpClient.cpp.i
+
+client/src/TcpClient.s: client/src/TcpClient.cpp.s
+.PHONY : client/src/TcpClient.s
+
+# target to generate assembly for a file
+client/src/TcpClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/TcpClient.cpp.s
+.PHONY : client/src/TcpClient.cpp.s
+
+client/src/TcpConnection.o: client/src/TcpConnection.cpp.o
+.PHONY : client/src/TcpConnection.o
+
+# target to build an object file
+client/src/TcpConnection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/TcpConnection.cpp.o
+.PHONY : client/src/TcpConnection.cpp.o
+
+client/src/TcpConnection.i: client/src/TcpConnection.cpp.i
+.PHONY : client/src/TcpConnection.i
+
+# target to preprocess a source file
+client/src/TcpConnection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/TcpConnection.cpp.i
+.PHONY : client/src/TcpConnection.cpp.i
+
+client/src/TcpConnection.s: client/src/TcpConnection.cpp.s
+.PHONY : client/src/TcpConnection.s
+
+# target to generate assembly for a file
+client/src/TcpConnection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/TcpConnection.cpp.s
+.PHONY : client/src/TcpConnection.cpp.s
+
+client/src/mainClient.o: client/src/mainClient.cpp.o
+.PHONY : client/src/mainClient.o
+
+# target to build an object file
+client/src/mainClient.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/mainClient.cpp.o
+.PHONY : client/src/mainClient.cpp.o
+
+client/src/mainClient.i: client/src/mainClient.cpp.i
+.PHONY : client/src/mainClient.i
+
+# target to preprocess a source file
+client/src/mainClient.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/mainClient.cpp.i
+.PHONY : client/src/mainClient.cpp.i
+
+client/src/mainClient.s: client/src/mainClient.cpp.s
+.PHONY : client/src/mainClient.s
+
+# target to generate assembly for a file
+client/src/mainClient.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client/src/mainClient.cpp.s
+.PHONY : client/src/mainClient.cpp.s
+
 src/Configuration.o: src/Configuration.cpp.o
 .PHONY : src/Configuration.o
 
@@ -236,6 +454,7 @@ src/Configuration.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/Configuration.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/Configuration.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/Configuration.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/Configuration.cpp.o
 .PHONY : src/Configuration.cpp.o
 
 src/Configuration.i: src/Configuration.cpp.i
@@ -248,6 +467,7 @@ src/Configuration.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/Configuration.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/Configuration.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/Configuration.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/Configuration.cpp.i
 .PHONY : src/Configuration.cpp.i
 
 src/Configuration.s: src/Configuration.cpp.s
@@ -260,6 +480,7 @@ src/Configuration.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/Configuration.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/Configuration.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/Configuration.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/Configuration.cpp.s
 .PHONY : src/Configuration.cpp.s
 
 src/LRUCache/CacheManager.o: src/LRUCache/CacheManager.cpp.o
@@ -269,6 +490,7 @@ src/LRUCache/CacheManager.o: src/LRUCache/CacheManager.cpp.o
 src/LRUCache/CacheManager.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/LRUCache/CacheManager.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/LRUCache/CacheManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/CacheManager.cpp.o
 .PHONY : src/LRUCache/CacheManager.cpp.o
 
 src/LRUCache/CacheManager.i: src/LRUCache/CacheManager.cpp.i
@@ -278,6 +500,7 @@ src/LRUCache/CacheManager.i: src/LRUCache/CacheManager.cpp.i
 src/LRUCache/CacheManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/LRUCache/CacheManager.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/LRUCache/CacheManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/CacheManager.cpp.i
 .PHONY : src/LRUCache/CacheManager.cpp.i
 
 src/LRUCache/CacheManager.s: src/LRUCache/CacheManager.cpp.s
@@ -287,7 +510,32 @@ src/LRUCache/CacheManager.s: src/LRUCache/CacheManager.cpp.s
 src/LRUCache/CacheManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/LRUCache/CacheManager.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/LRUCache/CacheManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/CacheManager.cpp.s
 .PHONY : src/LRUCache/CacheManager.cpp.s
+
+src/LRUCache/CacheUpdateTask.o: src/LRUCache/CacheUpdateTask.cpp.o
+.PHONY : src/LRUCache/CacheUpdateTask.o
+
+# target to build an object file
+src/LRUCache/CacheUpdateTask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/CacheUpdateTask.cpp.o
+.PHONY : src/LRUCache/CacheUpdateTask.cpp.o
+
+src/LRUCache/CacheUpdateTask.i: src/LRUCache/CacheUpdateTask.cpp.i
+.PHONY : src/LRUCache/CacheUpdateTask.i
+
+# target to preprocess a source file
+src/LRUCache/CacheUpdateTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/CacheUpdateTask.cpp.i
+.PHONY : src/LRUCache/CacheUpdateTask.cpp.i
+
+src/LRUCache/CacheUpdateTask.s: src/LRUCache/CacheUpdateTask.cpp.s
+.PHONY : src/LRUCache/CacheUpdateTask.s
+
+# target to generate assembly for a file
+src/LRUCache/CacheUpdateTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/CacheUpdateTask.cpp.s
+.PHONY : src/LRUCache/CacheUpdateTask.cpp.s
 
 src/LRUCache/LRUCache.o: src/LRUCache/LRUCache.cpp.o
 .PHONY : src/LRUCache/LRUCache.o
@@ -296,6 +544,7 @@ src/LRUCache/LRUCache.o: src/LRUCache/LRUCache.cpp.o
 src/LRUCache/LRUCache.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/LRUCache/LRUCache.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/LRUCache/LRUCache.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/LRUCache.cpp.o
 .PHONY : src/LRUCache/LRUCache.cpp.o
 
 src/LRUCache/LRUCache.i: src/LRUCache/LRUCache.cpp.i
@@ -305,6 +554,7 @@ src/LRUCache/LRUCache.i: src/LRUCache/LRUCache.cpp.i
 src/LRUCache/LRUCache.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/LRUCache/LRUCache.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/LRUCache/LRUCache.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/LRUCache.cpp.i
 .PHONY : src/LRUCache/LRUCache.cpp.i
 
 src/LRUCache/LRUCache.s: src/LRUCache/LRUCache.cpp.s
@@ -314,7 +564,32 @@ src/LRUCache/LRUCache.s: src/LRUCache/LRUCache.cpp.s
 src/LRUCache/LRUCache.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/LRUCache/LRUCache.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/LRUCache/LRUCache.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/LRUCache.cpp.s
 .PHONY : src/LRUCache/LRUCache.cpp.s
+
+src/LRUCache/TimerManager.o: src/LRUCache/TimerManager.cpp.o
+.PHONY : src/LRUCache/TimerManager.o
+
+# target to build an object file
+src/LRUCache/TimerManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/TimerManager.cpp.o
+.PHONY : src/LRUCache/TimerManager.cpp.o
+
+src/LRUCache/TimerManager.i: src/LRUCache/TimerManager.cpp.i
+.PHONY : src/LRUCache/TimerManager.i
+
+# target to preprocess a source file
+src/LRUCache/TimerManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/TimerManager.cpp.i
+.PHONY : src/LRUCache/TimerManager.cpp.i
+
+src/LRUCache/TimerManager.s: src/LRUCache/TimerManager.cpp.s
+.PHONY : src/LRUCache/TimerManager.s
+
+# target to generate assembly for a file
+src/LRUCache/TimerManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/LRUCache/TimerManager.cpp.s
+.PHONY : src/LRUCache/TimerManager.cpp.s
 
 src/LRUCache/testLRUCache.o: src/LRUCache/testLRUCache.cpp.o
 .PHONY : src/LRUCache/testLRUCache.o
@@ -373,6 +648,7 @@ src/dict/dictionary.o: src/dict/dictionary.cpp.o
 # target to build an object file
 src/dict/dictionary.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/dictionary.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/dict/dictionary.cpp.o
 .PHONY : src/dict/dictionary.cpp.o
 
 src/dict/dictionary.i: src/dict/dictionary.cpp.i
@@ -381,6 +657,7 @@ src/dict/dictionary.i: src/dict/dictionary.cpp.i
 # target to preprocess a source file
 src/dict/dictionary.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/dictionary.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/dict/dictionary.cpp.i
 .PHONY : src/dict/dictionary.cpp.i
 
 src/dict/dictionary.s: src/dict/dictionary.cpp.s
@@ -389,6 +666,7 @@ src/dict/dictionary.s: src/dict/dictionary.cpp.s
 # target to generate assembly for a file
 src/dict/dictionary.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/dictionary.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/dict/dictionary.cpp.s
 .PHONY : src/dict/dictionary.cpp.s
 
 src/dict/key_recommander.o: src/dict/key_recommander.cpp.o
@@ -397,6 +675,7 @@ src/dict/key_recommander.o: src/dict/key_recommander.cpp.o
 # target to build an object file
 src/dict/key_recommander.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/key_recommander.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/dict/key_recommander.cpp.o
 .PHONY : src/dict/key_recommander.cpp.o
 
 src/dict/key_recommander.i: src/dict/key_recommander.cpp.i
@@ -405,6 +684,7 @@ src/dict/key_recommander.i: src/dict/key_recommander.cpp.i
 # target to preprocess a source file
 src/dict/key_recommander.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/key_recommander.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/dict/key_recommander.cpp.i
 .PHONY : src/dict/key_recommander.cpp.i
 
 src/dict/key_recommander.s: src/dict/key_recommander.cpp.s
@@ -413,6 +693,7 @@ src/dict/key_recommander.s: src/dict/key_recommander.cpp.s
 # target to generate assembly for a file
 src/dict/key_recommander.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/key_recommander.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/dict/key_recommander.cpp.s
 .PHONY : src/dict/key_recommander.cpp.s
 
 src/dict/mainDictCreate.o: src/dict/mainDictCreate.cpp.o
@@ -472,6 +753,7 @@ src/dict/split_tool.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/split_tool.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/dict/split_tool.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/dict/split_tool.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/dict/split_tool.cpp.o
 .PHONY : src/dict/split_tool.cpp.o
 
 src/dict/split_tool.i: src/dict/split_tool.cpp.i
@@ -483,6 +765,7 @@ src/dict/split_tool.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/split_tool.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/dict/split_tool.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/dict/split_tool.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/dict/split_tool.cpp.i
 .PHONY : src/dict/split_tool.cpp.i
 
 src/dict/split_tool.s: src/dict/split_tool.cpp.s
@@ -494,6 +777,7 @@ src/dict/split_tool.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryCn.dir/build.make CMakeFiles/queryCn.dir/src/dict/split_tool.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/dict/split_tool.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/dict/split_tool.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/dict/split_tool.cpp.s
 .PHONY : src/dict/split_tool.cpp.s
 
 src/mylog.o: src/mylog.cpp.o
@@ -506,6 +790,7 @@ src/mylog.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/mylog.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/mylog.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/mylog.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/mylog.cpp.o
 .PHONY : src/mylog.cpp.o
 
 src/mylog.i: src/mylog.cpp.i
@@ -518,6 +803,7 @@ src/mylog.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/mylog.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/mylog.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/mylog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/mylog.cpp.i
 .PHONY : src/mylog.cpp.i
 
 src/mylog.s: src/mylog.cpp.s
@@ -530,6 +816,7 @@ src/mylog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testCache.dir/build.make CMakeFiles/testCache.dir/src/mylog.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainPageLib.dir/build.make CMakeFiles/mainPageLib.dir/src/mylog.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/mylog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/mylog.cpp.s
 .PHONY : src/mylog.cpp.s
 
 src/pageLib/mainPageLib.o: src/pageLib/mainPageLib.cpp.o
@@ -634,6 +921,7 @@ src/redis.o: src/redis.cpp.o
 # target to build an object file
 src/redis.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/redis.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/redis.cpp.o
 .PHONY : src/redis.cpp.o
 
 src/redis.i: src/redis.cpp.i
@@ -642,6 +930,7 @@ src/redis.i: src/redis.cpp.i
 # target to preprocess a source file
 src/redis.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/redis.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/redis.cpp.i
 .PHONY : src/redis.cpp.i
 
 src/redis.s: src/redis.cpp.s
@@ -650,7 +939,368 @@ src/redis.s: src/redis.cpp.s
 # target to generate assembly for a file
 src/redis.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/redis.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/redis.cpp.s
 .PHONY : src/redis.cpp.s
+
+src/tcpServer/Acceptor.o: src/tcpServer/Acceptor.cpp.o
+.PHONY : src/tcpServer/Acceptor.o
+
+# target to build an object file
+src/tcpServer/Acceptor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Acceptor.cpp.o
+.PHONY : src/tcpServer/Acceptor.cpp.o
+
+src/tcpServer/Acceptor.i: src/tcpServer/Acceptor.cpp.i
+.PHONY : src/tcpServer/Acceptor.i
+
+# target to preprocess a source file
+src/tcpServer/Acceptor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Acceptor.cpp.i
+.PHONY : src/tcpServer/Acceptor.cpp.i
+
+src/tcpServer/Acceptor.s: src/tcpServer/Acceptor.cpp.s
+.PHONY : src/tcpServer/Acceptor.s
+
+# target to generate assembly for a file
+src/tcpServer/Acceptor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Acceptor.cpp.s
+.PHONY : src/tcpServer/Acceptor.cpp.s
+
+src/tcpServer/Condition.o: src/tcpServer/Condition.cpp.o
+.PHONY : src/tcpServer/Condition.o
+
+# target to build an object file
+src/tcpServer/Condition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Condition.cpp.o
+.PHONY : src/tcpServer/Condition.cpp.o
+
+src/tcpServer/Condition.i: src/tcpServer/Condition.cpp.i
+.PHONY : src/tcpServer/Condition.i
+
+# target to preprocess a source file
+src/tcpServer/Condition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Condition.cpp.i
+.PHONY : src/tcpServer/Condition.cpp.i
+
+src/tcpServer/Condition.s: src/tcpServer/Condition.cpp.s
+.PHONY : src/tcpServer/Condition.s
+
+# target to generate assembly for a file
+src/tcpServer/Condition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Condition.cpp.s
+.PHONY : src/tcpServer/Condition.cpp.s
+
+src/tcpServer/EventLoop.o: src/tcpServer/EventLoop.cpp.o
+.PHONY : src/tcpServer/EventLoop.o
+
+# target to build an object file
+src/tcpServer/EventLoop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/EventLoop.cpp.o
+.PHONY : src/tcpServer/EventLoop.cpp.o
+
+src/tcpServer/EventLoop.i: src/tcpServer/EventLoop.cpp.i
+.PHONY : src/tcpServer/EventLoop.i
+
+# target to preprocess a source file
+src/tcpServer/EventLoop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/EventLoop.cpp.i
+.PHONY : src/tcpServer/EventLoop.cpp.i
+
+src/tcpServer/EventLoop.s: src/tcpServer/EventLoop.cpp.s
+.PHONY : src/tcpServer/EventLoop.s
+
+# target to generate assembly for a file
+src/tcpServer/EventLoop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/EventLoop.cpp.s
+.PHONY : src/tcpServer/EventLoop.cpp.s
+
+src/tcpServer/InetAddress.o: src/tcpServer/InetAddress.cpp.o
+.PHONY : src/tcpServer/InetAddress.o
+
+# target to build an object file
+src/tcpServer/InetAddress.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/InetAddress.cpp.o
+.PHONY : src/tcpServer/InetAddress.cpp.o
+
+src/tcpServer/InetAddress.i: src/tcpServer/InetAddress.cpp.i
+.PHONY : src/tcpServer/InetAddress.i
+
+# target to preprocess a source file
+src/tcpServer/InetAddress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/InetAddress.cpp.i
+.PHONY : src/tcpServer/InetAddress.cpp.i
+
+src/tcpServer/InetAddress.s: src/tcpServer/InetAddress.cpp.s
+.PHONY : src/tcpServer/InetAddress.s
+
+# target to generate assembly for a file
+src/tcpServer/InetAddress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/InetAddress.cpp.s
+.PHONY : src/tcpServer/InetAddress.cpp.s
+
+src/tcpServer/Mutex.o: src/tcpServer/Mutex.cpp.o
+.PHONY : src/tcpServer/Mutex.o
+
+# target to build an object file
+src/tcpServer/Mutex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Mutex.cpp.o
+.PHONY : src/tcpServer/Mutex.cpp.o
+
+src/tcpServer/Mutex.i: src/tcpServer/Mutex.cpp.i
+.PHONY : src/tcpServer/Mutex.i
+
+# target to preprocess a source file
+src/tcpServer/Mutex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Mutex.cpp.i
+.PHONY : src/tcpServer/Mutex.cpp.i
+
+src/tcpServer/Mutex.s: src/tcpServer/Mutex.cpp.s
+.PHONY : src/tcpServer/Mutex.s
+
+# target to generate assembly for a file
+src/tcpServer/Mutex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Mutex.cpp.s
+.PHONY : src/tcpServer/Mutex.cpp.s
+
+src/tcpServer/SearchServer.o: src/tcpServer/SearchServer.cpp.o
+.PHONY : src/tcpServer/SearchServer.o
+
+# target to build an object file
+src/tcpServer/SearchServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/SearchServer.cpp.o
+.PHONY : src/tcpServer/SearchServer.cpp.o
+
+src/tcpServer/SearchServer.i: src/tcpServer/SearchServer.cpp.i
+.PHONY : src/tcpServer/SearchServer.i
+
+# target to preprocess a source file
+src/tcpServer/SearchServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/SearchServer.cpp.i
+.PHONY : src/tcpServer/SearchServer.cpp.i
+
+src/tcpServer/SearchServer.s: src/tcpServer/SearchServer.cpp.s
+.PHONY : src/tcpServer/SearchServer.s
+
+# target to generate assembly for a file
+src/tcpServer/SearchServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/SearchServer.cpp.s
+.PHONY : src/tcpServer/SearchServer.cpp.s
+
+src/tcpServer/Socket.o: src/tcpServer/Socket.cpp.o
+.PHONY : src/tcpServer/Socket.o
+
+# target to build an object file
+src/tcpServer/Socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Socket.cpp.o
+.PHONY : src/tcpServer/Socket.cpp.o
+
+src/tcpServer/Socket.i: src/tcpServer/Socket.cpp.i
+.PHONY : src/tcpServer/Socket.i
+
+# target to preprocess a source file
+src/tcpServer/Socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Socket.cpp.i
+.PHONY : src/tcpServer/Socket.cpp.i
+
+src/tcpServer/Socket.s: src/tcpServer/Socket.cpp.s
+.PHONY : src/tcpServer/Socket.s
+
+# target to generate assembly for a file
+src/tcpServer/Socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Socket.cpp.s
+.PHONY : src/tcpServer/Socket.cpp.s
+
+src/tcpServer/SocketIO.o: src/tcpServer/SocketIO.cpp.o
+.PHONY : src/tcpServer/SocketIO.o
+
+# target to build an object file
+src/tcpServer/SocketIO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/SocketIO.cpp.o
+.PHONY : src/tcpServer/SocketIO.cpp.o
+
+src/tcpServer/SocketIO.i: src/tcpServer/SocketIO.cpp.i
+.PHONY : src/tcpServer/SocketIO.i
+
+# target to preprocess a source file
+src/tcpServer/SocketIO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/SocketIO.cpp.i
+.PHONY : src/tcpServer/SocketIO.cpp.i
+
+src/tcpServer/SocketIO.s: src/tcpServer/SocketIO.cpp.s
+.PHONY : src/tcpServer/SocketIO.s
+
+# target to generate assembly for a file
+src/tcpServer/SocketIO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/SocketIO.cpp.s
+.PHONY : src/tcpServer/SocketIO.cpp.s
+
+src/tcpServer/Task.o: src/tcpServer/Task.cpp.o
+.PHONY : src/tcpServer/Task.o
+
+# target to build an object file
+src/tcpServer/Task.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Task.cpp.o
+.PHONY : src/tcpServer/Task.cpp.o
+
+src/tcpServer/Task.i: src/tcpServer/Task.cpp.i
+.PHONY : src/tcpServer/Task.i
+
+# target to preprocess a source file
+src/tcpServer/Task.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Task.cpp.i
+.PHONY : src/tcpServer/Task.cpp.i
+
+src/tcpServer/Task.s: src/tcpServer/Task.cpp.s
+.PHONY : src/tcpServer/Task.s
+
+# target to generate assembly for a file
+src/tcpServer/Task.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Task.cpp.s
+.PHONY : src/tcpServer/Task.cpp.s
+
+src/tcpServer/TaskQueue.o: src/tcpServer/TaskQueue.cpp.o
+.PHONY : src/tcpServer/TaskQueue.o
+
+# target to build an object file
+src/tcpServer/TaskQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/TaskQueue.cpp.o
+.PHONY : src/tcpServer/TaskQueue.cpp.o
+
+src/tcpServer/TaskQueue.i: src/tcpServer/TaskQueue.cpp.i
+.PHONY : src/tcpServer/TaskQueue.i
+
+# target to preprocess a source file
+src/tcpServer/TaskQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/TaskQueue.cpp.i
+.PHONY : src/tcpServer/TaskQueue.cpp.i
+
+src/tcpServer/TaskQueue.s: src/tcpServer/TaskQueue.cpp.s
+.PHONY : src/tcpServer/TaskQueue.s
+
+# target to generate assembly for a file
+src/tcpServer/TaskQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/TaskQueue.cpp.s
+.PHONY : src/tcpServer/TaskQueue.cpp.s
+
+src/tcpServer/TcpConnection.o: src/tcpServer/TcpConnection.cpp.o
+.PHONY : src/tcpServer/TcpConnection.o
+
+# target to build an object file
+src/tcpServer/TcpConnection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/TcpConnection.cpp.o
+.PHONY : src/tcpServer/TcpConnection.cpp.o
+
+src/tcpServer/TcpConnection.i: src/tcpServer/TcpConnection.cpp.i
+.PHONY : src/tcpServer/TcpConnection.i
+
+# target to preprocess a source file
+src/tcpServer/TcpConnection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/TcpConnection.cpp.i
+.PHONY : src/tcpServer/TcpConnection.cpp.i
+
+src/tcpServer/TcpConnection.s: src/tcpServer/TcpConnection.cpp.s
+.PHONY : src/tcpServer/TcpConnection.s
+
+# target to generate assembly for a file
+src/tcpServer/TcpConnection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/TcpConnection.cpp.s
+.PHONY : src/tcpServer/TcpConnection.cpp.s
+
+src/tcpServer/TcpServer.o: src/tcpServer/TcpServer.cpp.o
+.PHONY : src/tcpServer/TcpServer.o
+
+# target to build an object file
+src/tcpServer/TcpServer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/TcpServer.cpp.o
+.PHONY : src/tcpServer/TcpServer.cpp.o
+
+src/tcpServer/TcpServer.i: src/tcpServer/TcpServer.cpp.i
+.PHONY : src/tcpServer/TcpServer.i
+
+# target to preprocess a source file
+src/tcpServer/TcpServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/TcpServer.cpp.i
+.PHONY : src/tcpServer/TcpServer.cpp.i
+
+src/tcpServer/TcpServer.s: src/tcpServer/TcpServer.cpp.s
+.PHONY : src/tcpServer/TcpServer.s
+
+# target to generate assembly for a file
+src/tcpServer/TcpServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/TcpServer.cpp.s
+.PHONY : src/tcpServer/TcpServer.cpp.s
+
+src/tcpServer/Thread.o: src/tcpServer/Thread.cpp.o
+.PHONY : src/tcpServer/Thread.o
+
+# target to build an object file
+src/tcpServer/Thread.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Thread.cpp.o
+.PHONY : src/tcpServer/Thread.cpp.o
+
+src/tcpServer/Thread.i: src/tcpServer/Thread.cpp.i
+.PHONY : src/tcpServer/Thread.i
+
+# target to preprocess a source file
+src/tcpServer/Thread.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Thread.cpp.i
+.PHONY : src/tcpServer/Thread.cpp.i
+
+src/tcpServer/Thread.s: src/tcpServer/Thread.cpp.s
+.PHONY : src/tcpServer/Thread.s
+
+# target to generate assembly for a file
+src/tcpServer/Thread.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/Thread.cpp.s
+.PHONY : src/tcpServer/Thread.cpp.s
+
+src/tcpServer/ThreadPool.o: src/tcpServer/ThreadPool.cpp.o
+.PHONY : src/tcpServer/ThreadPool.o
+
+# target to build an object file
+src/tcpServer/ThreadPool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/ThreadPool.cpp.o
+.PHONY : src/tcpServer/ThreadPool.cpp.o
+
+src/tcpServer/ThreadPool.i: src/tcpServer/ThreadPool.cpp.i
+.PHONY : src/tcpServer/ThreadPool.i
+
+# target to preprocess a source file
+src/tcpServer/ThreadPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/ThreadPool.cpp.i
+.PHONY : src/tcpServer/ThreadPool.cpp.i
+
+src/tcpServer/ThreadPool.s: src/tcpServer/ThreadPool.cpp.s
+.PHONY : src/tcpServer/ThreadPool.s
+
+# target to generate assembly for a file
+src/tcpServer/ThreadPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/ThreadPool.cpp.s
+.PHONY : src/tcpServer/ThreadPool.cpp.s
+
+src/tcpServer/mainSearchSever.o: src/tcpServer/mainSearchSever.cpp.o
+.PHONY : src/tcpServer/mainSearchSever.o
+
+# target to build an object file
+src/tcpServer/mainSearchSever.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/mainSearchSever.cpp.o
+.PHONY : src/tcpServer/mainSearchSever.cpp.o
+
+src/tcpServer/mainSearchSever.i: src/tcpServer/mainSearchSever.cpp.i
+.PHONY : src/tcpServer/mainSearchSever.i
+
+# target to preprocess a source file
+src/tcpServer/mainSearchSever.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/mainSearchSever.cpp.i
+.PHONY : src/tcpServer/mainSearchSever.cpp.i
+
+src/tcpServer/mainSearchSever.s: src/tcpServer/mainSearchSever.cpp.s
+.PHONY : src/tcpServer/mainSearchSever.s
+
+# target to generate assembly for a file
+src/tcpServer/mainSearchSever.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/tcpServer/mainSearchSever.cpp.s
+.PHONY : src/tcpServer/mainSearchSever.cpp.s
 
 src/webPage/WebPageQuery.o: src/webPage/WebPageQuery.cpp.o
 .PHONY : src/webPage/WebPageQuery.o
@@ -658,6 +1308,7 @@ src/webPage/WebPageQuery.o: src/webPage/WebPageQuery.cpp.o
 # target to build an object file
 src/webPage/WebPageQuery.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageQuery.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/webPage/WebPageQuery.cpp.o
 .PHONY : src/webPage/WebPageQuery.cpp.o
 
 src/webPage/WebPageQuery.i: src/webPage/WebPageQuery.cpp.i
@@ -666,6 +1317,7 @@ src/webPage/WebPageQuery.i: src/webPage/WebPageQuery.cpp.i
 # target to preprocess a source file
 src/webPage/WebPageQuery.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageQuery.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/webPage/WebPageQuery.cpp.i
 .PHONY : src/webPage/WebPageQuery.cpp.i
 
 src/webPage/WebPageQuery.s: src/webPage/WebPageQuery.cpp.s
@@ -674,6 +1326,7 @@ src/webPage/WebPageQuery.s: src/webPage/WebPageQuery.cpp.s
 # target to generate assembly for a file
 src/webPage/WebPageQuery.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageQuery.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/webPage/WebPageQuery.cpp.s
 .PHONY : src/webPage/WebPageQuery.cpp.s
 
 src/webPage/WebPageReader.o: src/webPage/WebPageReader.cpp.o
@@ -682,6 +1335,7 @@ src/webPage/WebPageReader.o: src/webPage/WebPageReader.cpp.o
 # target to build an object file
 src/webPage/WebPageReader.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageReader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/webPage/WebPageReader.cpp.o
 .PHONY : src/webPage/WebPageReader.cpp.o
 
 src/webPage/WebPageReader.i: src/webPage/WebPageReader.cpp.i
@@ -690,6 +1344,7 @@ src/webPage/WebPageReader.i: src/webPage/WebPageReader.cpp.i
 # target to preprocess a source file
 src/webPage/WebPageReader.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageReader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/webPage/WebPageReader.cpp.i
 .PHONY : src/webPage/WebPageReader.cpp.i
 
 src/webPage/WebPageReader.s: src/webPage/WebPageReader.cpp.s
@@ -698,6 +1353,7 @@ src/webPage/WebPageReader.s: src/webPage/WebPageReader.cpp.s
 # target to generate assembly for a file
 src/webPage/WebPageReader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/queryTest.dir/build.make CMakeFiles/queryTest.dir/src/webPage/WebPageReader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/searchSever.dir/build.make CMakeFiles/searchSever.dir/src/webPage/WebPageReader.cpp.s
 .PHONY : src/webPage/WebPageReader.cpp.s
 
 src/webPage/test.o: src/webPage/test.cpp.o
@@ -737,19 +1393,51 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... buildDict"
+	@echo "... client"
 	@echo "... mainPageLib"
 	@echo "... queryCn"
 	@echo "... queryTest"
+	@echo "... searchSever"
 	@echo "... testCache"
+	@echo "... client/src/Configuration.o"
+	@echo "... client/src/Configuration.i"
+	@echo "... client/src/Configuration.s"
+	@echo "... client/src/Connection.o"
+	@echo "... client/src/Connection.i"
+	@echo "... client/src/Connection.s"
+	@echo "... client/src/InetAddress.o"
+	@echo "... client/src/InetAddress.i"
+	@echo "... client/src/InetAddress.s"
+	@echo "... client/src/Socket.o"
+	@echo "... client/src/Socket.i"
+	@echo "... client/src/Socket.s"
+	@echo "... client/src/SocketIO.o"
+	@echo "... client/src/SocketIO.i"
+	@echo "... client/src/SocketIO.s"
+	@echo "... client/src/TcpClient.o"
+	@echo "... client/src/TcpClient.i"
+	@echo "... client/src/TcpClient.s"
+	@echo "... client/src/TcpConnection.o"
+	@echo "... client/src/TcpConnection.i"
+	@echo "... client/src/TcpConnection.s"
+	@echo "... client/src/mainClient.o"
+	@echo "... client/src/mainClient.i"
+	@echo "... client/src/mainClient.s"
 	@echo "... src/Configuration.o"
 	@echo "... src/Configuration.i"
 	@echo "... src/Configuration.s"
 	@echo "... src/LRUCache/CacheManager.o"
 	@echo "... src/LRUCache/CacheManager.i"
 	@echo "... src/LRUCache/CacheManager.s"
+	@echo "... src/LRUCache/CacheUpdateTask.o"
+	@echo "... src/LRUCache/CacheUpdateTask.i"
+	@echo "... src/LRUCache/CacheUpdateTask.s"
 	@echo "... src/LRUCache/LRUCache.o"
 	@echo "... src/LRUCache/LRUCache.i"
 	@echo "... src/LRUCache/LRUCache.s"
+	@echo "... src/LRUCache/TimerManager.o"
+	@echo "... src/LRUCache/TimerManager.i"
+	@echo "... src/LRUCache/TimerManager.s"
 	@echo "... src/LRUCache/testLRUCache.o"
 	@echo "... src/LRUCache/testLRUCache.i"
 	@echo "... src/LRUCache/testLRUCache.s"
@@ -789,6 +1477,51 @@ help:
 	@echo "... src/redis.o"
 	@echo "... src/redis.i"
 	@echo "... src/redis.s"
+	@echo "... src/tcpServer/Acceptor.o"
+	@echo "... src/tcpServer/Acceptor.i"
+	@echo "... src/tcpServer/Acceptor.s"
+	@echo "... src/tcpServer/Condition.o"
+	@echo "... src/tcpServer/Condition.i"
+	@echo "... src/tcpServer/Condition.s"
+	@echo "... src/tcpServer/EventLoop.o"
+	@echo "... src/tcpServer/EventLoop.i"
+	@echo "... src/tcpServer/EventLoop.s"
+	@echo "... src/tcpServer/InetAddress.o"
+	@echo "... src/tcpServer/InetAddress.i"
+	@echo "... src/tcpServer/InetAddress.s"
+	@echo "... src/tcpServer/Mutex.o"
+	@echo "... src/tcpServer/Mutex.i"
+	@echo "... src/tcpServer/Mutex.s"
+	@echo "... src/tcpServer/SearchServer.o"
+	@echo "... src/tcpServer/SearchServer.i"
+	@echo "... src/tcpServer/SearchServer.s"
+	@echo "... src/tcpServer/Socket.o"
+	@echo "... src/tcpServer/Socket.i"
+	@echo "... src/tcpServer/Socket.s"
+	@echo "... src/tcpServer/SocketIO.o"
+	@echo "... src/tcpServer/SocketIO.i"
+	@echo "... src/tcpServer/SocketIO.s"
+	@echo "... src/tcpServer/Task.o"
+	@echo "... src/tcpServer/Task.i"
+	@echo "... src/tcpServer/Task.s"
+	@echo "... src/tcpServer/TaskQueue.o"
+	@echo "... src/tcpServer/TaskQueue.i"
+	@echo "... src/tcpServer/TaskQueue.s"
+	@echo "... src/tcpServer/TcpConnection.o"
+	@echo "... src/tcpServer/TcpConnection.i"
+	@echo "... src/tcpServer/TcpConnection.s"
+	@echo "... src/tcpServer/TcpServer.o"
+	@echo "... src/tcpServer/TcpServer.i"
+	@echo "... src/tcpServer/TcpServer.s"
+	@echo "... src/tcpServer/Thread.o"
+	@echo "... src/tcpServer/Thread.i"
+	@echo "... src/tcpServer/Thread.s"
+	@echo "... src/tcpServer/ThreadPool.o"
+	@echo "... src/tcpServer/ThreadPool.i"
+	@echo "... src/tcpServer/ThreadPool.s"
+	@echo "... src/tcpServer/mainSearchSever.o"
+	@echo "... src/tcpServer/mainSearchSever.i"
+	@echo "... src/tcpServer/mainSearchSever.s"
 	@echo "... src/webPage/WebPageQuery.o"
 	@echo "... src/webPage/WebPageQuery.i"
 	@echo "... src/webPage/WebPageQuery.s"

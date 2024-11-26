@@ -55,4 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/testCache.dir/DependInfo.cmake"
   "CMakeFiles/mainPageLib.dir/DependInfo.cmake"
   "CMakeFiles/queryTest.dir/DependInfo.cmake"
+  "CMakeFiles/searchSever.dir/DependInfo.cmake"
+  "CMakeFiles/client.dir/DependInfo.cmake"
   )

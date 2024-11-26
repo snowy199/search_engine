@@ -3,3 +3,5 @@
 /home/qml/serch/search_engine/bin/testCache
 /home/qml/serch/search_engine/bin/mainPageLib
 /home/qml/serch/search_engine/bin/queryTest
+/home/qml/serch/search_engine/client/bin/client
+/home/qml/serch/search_engine/bin/searchSever

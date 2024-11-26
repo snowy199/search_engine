@@ -4,7 +4,7 @@
 //构造函数，传入redis对象指针
 WebPageQuery::WebPageQuery()
 {
-        _conf = Configuration::getInstance("../conf/searchSever.conf");
+        _conf = Configuration::getInstance("conf/searchSever.conf");
         map<string, string> confInfo = _conf->getConfigMap();
         _redis=Redis::getInstance(confInfo["redis_host"],confInfo["redis_port"]);
         _splitTool= new CnSplitTool(
@@ -304,7 +304,7 @@ double WebPageQuery::getCos(int ID, const std::vector<std::string>& keyWords) {
     int size = keyWords.size();
     int count = 0;
 
-    //便利当前id的搜索词和权重的表，将关键词和文章的点标出
+    //遍历当前id的搜索词和权重的表，将关键词和文章的点标出
     for (const auto& item : vcp) {
         count++;
         if (std::find(keyWords.begin(), keyWords.end(), item.first) != keyWords.end()) {
@@ -365,7 +365,7 @@ std::map<double, RssItem, std::greater<double>> WebPageQuery::getRes(const std::
         RssItem strTmp=_webPageReader->getWebLib().at(id);
         res[cosTmp] = strTmp;
     }
-    //便利拥有关键词的docid数组
+    //遍历拥有关键词的docid数组
     return res;
 
 }
